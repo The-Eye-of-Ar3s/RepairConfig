@@ -1,0 +1,179 @@
+{
+    "repairKit": {
+        "armor": {
+            "rarityWeight": {
+                "common": 5,
+                "rare": 1
+            },
+            "bonusTypeWeight": {
+                "DamageReduction": 1
+            },
+            "common": {
+                "DamageReduction": {
+                    "valuesMinMax": {
+                        "min": 0.75,
+                        "max": 0.65
+                    },
+                    "activeDurabilityPercentMinMax": {
+                        "min": 0,
+                        "max": 100
+                    }
+                }
+            },
+            "rare": {
+                "DamageReduction": {
+                    "valuesMinMax": {
+                        "min": 0.55,
+                        "max": 0.35
+                    },
+                    "activeDurabilityPercentMinMax": {
+                        "min": 0,
+                        "max": 100
+                    }
+                }
+            }
+        },
+        "weapon": {
+            "rarityWeight": {
+                "common": 5,
+                "rare": 1
+            },
+            "bonusTypeWeight": {
+                "WeaponSpread": 1,
+                "MalfunctionProtections": 1,
+                "WeaponDamage": 0
+            },
+            "common": {
+                "WeaponSpread": {
+                    "valuesMinMax": {
+                        "min": 0.75,
+                        "max": 0.85
+                    },
+                    "activeDurabilityPercentMinMax": {
+                        "min": 0,
+                        "max": 100
+                    }
+                },
+                "MalfunctionProtections": {
+                    "valuesMinMax": {
+                        "min": 0.75,
+                        "max": 0.85
+                    },
+                    "activeDurabilityPercentMinMax": {
+                        "min": 0,
+                        "max": 100
+                    }
+                },
+                "WeaponDamage": {
+                    "valuesMinMax": {
+                        "min": 0.5,
+                        "max": 0.6
+                    },
+                    "activeDurabilityPercentMinMax": {
+                        "min": 0,
+                        "max": 100
+                    }
+                }
+            },
+            "rare": {
+                "WeaponSpread": {
+                    "valuesMinMax": {
+                        "min": 0.55,
+                        "max": 0.65
+                    },
+                    "activeDurabilityPercentMinMax": {
+                        "min": 0,
+                        "max": 100
+                    }
+                },
+                "MalfunctionProtections": {
+                    "valuesMinMax": {
+                        "min": 0.55,
+                        "max": 0.65
+                    },
+                    "activeDurabilityPercentMinMax": {
+                        "min": 0,
+                        "max": 100
+                    }
+                },
+                "WeaponDamage": {
+                    "valuesMinMax": {
+                        "min": 0.3,
+                        "max": 0.5
+                    },
+                    "activeDurabilityPercentMinMax": {
+                        "min": 0,
+                        "max": 100
+                    }
+                }
+            }
+        }
+    },
+    "LightVests": {
+        "BuffMaxCount": 1,
+        "BuffSettings": {
+            "CommonBuffChanceLevelBonus": 1.25,
+            "CommonBuffMinChanceValue": 0.1,
+            "CurrentDurabilityLossToRemoveBuff": 1.0,
+            "MaxDurabilityLossToRemoveBuff": 1.0,
+            "RareBuffChanceCoff": 0.1,
+            "ReceivedDurabilityMaxPercent": 30
+        },
+        "Counters": {
+            "armorDurability": {
+                "divisor": 9.2,
+                "points": 1
+            }
+        },
+        "MeleeDamageLVestsReducePerLevel": 0.006,
+        "MoveSpeedPenaltyReductionLVestsReducePerLevel": 0.006,
+        "WearAmountRepairLVestsReducePerLevel": 0.008,
+        "WearChanceRepairLVestsReduceEliteLevel": 0.5
+    },
+    "HeavyVests": {
+        "BluntThroughputDamageHVestsReducePerLevel": 0.004,
+        "BuffMaxCount": 1,
+        "BuffSettings": {
+            "CommonBuffChanceLevelBonus": 1.25,
+            "CommonBuffMinChanceValue": 0.1,
+            "CurrentDurabilityLossToRemoveBuff": 1.0,
+            "MaxDurabilityLossToRemoveBuff": 1.0,
+            "RareBuffChanceCoff": 0.1,
+            "ReceivedDurabilityMaxPercent": 30
+        },
+        "Counters": {
+            "armorDurability": {
+                "divisor": 10.2,
+                "points": 1
+            }
+        },
+        "MoveSpeedPenaltyReductionHVestsReducePerLevel": 0.005,
+        "RicochetChanceHVestsCurrentDurabilityThreshold": 0.5,
+        "RicochetChanceHVestsEliteLevel": 0.05,
+        "RicochetChanceHVestsMaxDurabilityThreshold": 0.2,
+        "WearAmountRepairHVestsReducePerLevel": 0.01,
+        "WearChanceRepairHVestsReduceEliteLevel": 0.5
+    },
+    "WeaponTreatment": {
+        "BuffMaxCount": 2,
+        "BuffSettings": {
+            "CommonBuffChanceLevelBonus": 1.25,
+            "CommonBuffMinChanceValue": 0.074,
+            "CurrentDurabilityLossToRemoveBuff": 1.0,
+            "MaxDurabilityLossToRemoveBuff": 1.0,
+            "RareBuffChanceCoff": 0.075,
+            "ReceivedDurabilityMaxPercent": 30
+        },
+        "Counters": {
+            "firearmsDurability": {
+                "divisor": 6,
+                "points": 1
+            }
+        },
+        "DurLossReducePerLevel": 0.005,
+        "Filter": [],
+        "SkillPointsPerRepair": 3,
+        "WearAmountRepairGunsReducePerLevel": 0.01,
+        "WearChanceRepairGunsReduceEliteLevel": 0.5
+    }
+}
